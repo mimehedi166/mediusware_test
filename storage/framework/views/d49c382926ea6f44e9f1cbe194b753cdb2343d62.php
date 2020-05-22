@@ -320,6 +320,8 @@ if($user_meta['temp_user'] === true){
 
                     <li <?php if($route=='history'): ?> class="active" <?php endif; ?>><a href="<?php echo e(url('/history')); ?>"> <i
                                     class="fa fa-home"></i> History</a></li>
+                    <li <?php if($route=='buffer/postings'): ?> class="active" <?php endif; ?>><a href="<?php echo e(url('/buffer/postings')); ?>"> <i
+                                    class="fa fa-podcast"></i> Buffer Posting</a></li>
                 <?php endif; ?>
             </ul>
         </div><!-- /.container-fluid -->
